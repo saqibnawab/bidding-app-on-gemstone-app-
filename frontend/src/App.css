@@ -1,0 +1,688 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ---------------Header----------------- */
+.headerbutton Button {
+  font-size: 13px !important;
+}
+
+.headeremail:hover,
+.headersupport:hover {
+  color: #01aa85 !important;
+}
+
+.headerbutton Button:hover {
+  background-color: #01aa85;
+  color: white !important;
+}
+
+.headersearch input[type="text"] {
+  width: 380px;
+  border: 1px solid #01aa85;
+}
+
+.input:focus {
+  outline: none;
+  border: none;
+  outline: none;
+}
+
+
+.headersearch button {
+  background-color: #01aa85 !important;
+  outline: none;
+  border: none;
+}
+
+.headersearch button svg {
+  color: white;
+  font-size: 22px;
+}
+
+.button button {
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+}
+
+.search-button {
+  background-color: transparent;
+
+}
+
+.search-button:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: black !important;
+}
+
+.button button:hover {
+  background-color: #01aa85;
+  transition: all 0.3s ease-in-out;
+
+}
+
+/* //////////////////////////Home catagory ///////////////////////////// */
+.catogeryitem {
+  width: 120px;
+  height: 125px;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.catogeryitem img {
+  width: 75%;
+  height: 75%;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 10%;
+}
+
+.catogeryitem h3 {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+  margin: 0px;
+
+}
+
+.catogeryitem p {
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0px;
+  font-weight: bold;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.boxone {
+  background-image: url("https://images.pexels.com/photos/6932009/pexels-photo-6932009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  width: 100%;
+  height: 400px;
+}
+
+.boxtwo {
+  background-image: url("https://images.pexels.com/photos/6468560/pexels-photo-6468560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  width: 100%;
+  height: 400px;
+}
+
+.swiper-pagination {
+  background-color: transparent;
+  width: 20px !important;
+  padding: 30px 0px;
+  border-radius: 10%;
+}
+
+.heroimage {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+.heroimage img {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  object-fit: cover;
+  /* Ensure the image covers the container */
+}
+
+.heroimage p {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%) rotate(90deg);
+  /* Center the text vertically and rotate */
+  border: 1px solid red;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Optional: Add a background to make the text more visible */
+  z-index: 10;
+  /* Ensure it's above other elements */
+}
+
+.heroimage p svg {
+  font-size: 20px;
+}
+
+.heroimage p .up,
+.heroimage p .down {
+  transform: rotate(270deg);
+  /* Rotates the arrows */
+}
+
+/* //////////////////////////////////////AuctionCart////////////////////////////////////////////////////////////////////////////////////////// */
+.card .image {
+  width: 100%;
+  height: 220px;
+  background-color: #f6f6f6;
+  padding-top: 8px;
+}
+
+.card .image img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.card .image img:hover {
+  transform: scale(1.1);
+  transition: linear;
+}
+
+
+.carttext .currentbid {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.card .status {
+  color: white;
+  background-color: red;
+  width: 40px;
+  text-align: center;
+  border-radius: 8%;
+  position: absolute;
+  top: 0px;
+  font-size: 12px;
+}
+
+.card .carticone {
+  position: absolute;
+  right: 8px;
+  flex-direction: column;
+
+}
+
+.card .carticone .eye {
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+}
+
+.card .carticone .heart {
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+}
+
+.carttimesection {
+  position: absolute;
+  top: 45%;
+
+}
+
+.flex-row {
+  height: 100% !important;
+  align-items: center;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+.catagoreytext {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.controller {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+
+.pre,
+.next {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.pre:hover,
+.next:hover {
+  background-color: #01aa85;
+  transition: all 0.3s ease-in-out;
+}
+
+.pre::after,
+.next::after {
+  content: '';
+  font-size: 15px;
+  color: #fff;
+}
+
+.pre::after {
+  content: '←';
+  /* Replace with the desired arrow icon */
+}
+
+.next::after {
+  content: '→';
+  /* Replace with the desired arrow icon */
+}
+
+.text {
+  margin-left: 70px;
+  /* Adjust to avoid overlap with arrows */
+}
+
+/* .................................................................................. */
+.posterimageone {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.posterimagetwo,
+.posterimagetree,
+.posterimagefour,
+.posterimagefive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2%;
+  position: relative;
+}
+
+.posterimageone {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0F05dF7lXsUlRj8bkrHai5jDLMWxCNQsyRw&s");
+
+}
+
+.posterimagetwo {
+  background-image: url("https://i.etsystatic.com/21220004/r/il/f547a6/4558261215/il_fullxfull.4558261215_sk7z.jpg");
+
+}
+
+.posterimageone {
+  position: relative;
+  /* Ensure it has a height if not set already */
+  height: 100vh;
+  /* Adjust as needed */
+}
+
+.posterimageone::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Adjust the height of the gradient as needed */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+  z-index: 1;
+  /* Ensure it's above other content but below the text */
+}
+
+.posteronetext {
+  position: relative;
+  z-index: 2;
+  /* Ensure the text is above the gradient */
+}
+
+
+
+
+.posterimagetree {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvOx8XMMBTRgO5ydcx05bFsw8V9yvL4jUGGkIQJDwP2_e6JyEJav0IN6jHjcdLy0eYb3Y&usqp=CAU");
+}
+
+.posterimagefour {
+  background-image: url("https://www.copperbeardjewelry.com/cdn/shop/products/SterlingSilverLeafBranch6mmOpalCabochonFireTurquoiseOP80Ring-2.jpg?v=1641266463");
+}
+
+.posterimagefive {
+  background-image: url("https://houseofjewellery.pk/cdn/shop/products/hoj_img_23.jpg?v=1640606711");
+}
+
+/* ...................................................... */
+.collapse ul li a {
+  font-size: 18px;
+  color: black;
+  font-size: bold;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+
+/* /////////////////////Trendingaction////////////////////// */
+.trendingimage {
+  width: 100%;
+  height: 300px;
+  /* Set a specific height */
+  background-size: cover;
+  /* Ensure the image covers the entire div */
+  background-position: center;
+  /* Center the background image */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ-hBTYlctPRJWt2HJtCsoEC1qZtglN2Q5vA&s");
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #f9f9f9;
+  padding: 30px;
+  border-radius: 50%;
+  background-color: #01aa85;
+}
+
+/* ////////////////////////////footer/////////////////////////////// */
+.auctionfooter {
+  width: 100%;
+ 
+  background-color: #01aa85;
+
+}
+
+.ul li {
+  padding: 10px;
+  text-align: center;
+}
+
+.mright {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGaBHThU865v7J7wQlwkYfoHPpDyTecKd3JA&s");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.mleft {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGaBHThU865v7J7wQlwkYfoHPpDyTecKd3JA&s");
+  background-size: cover;
+  background-position: center;
+}
+
+/* .............................................Listingpage.......................................................... */
+.listingcheakbox {
+  width: 100%;
+  height: 300px;
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+
+.listingcheakbox::-webkit-scrollbar {
+  width: 5px;
+  /* Width of the scrollbar */
+
+}
+
+/* Styling the track (the background of the scrollbar) */
+.listingcheakbox::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Light grey background */
+  border-radius: 10px;
+}
+
+/* Styling the thumb (the draggable part of the scrollbar) */
+.listingcheakbox::-webkit-scrollbar-thumb {
+  background: #888;
+  /* Darker grey */
+  border-radius: 10px;
+}
+
+/* Styling the thumb when it's hovered over */
+.listingcheakbox::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* Even darker grey */
+}
+
+.listingrighttext .icone svg {
+  font-size: 30px;
+  color: #01aa85;
+}
+
+
+
+
+
+
+/* ..........................singlepage............................... */
+.form {
+  width: 70%;
+
+}
+
+.form button {
+  padding: 10px 20px;
+}
+
+.paymentmethods {
+  width: 60%;
+  border: 1px solid rgb(76, 74, 74);
+}
+
+.paymentmethods span svg {
+  font-size: 30px;
+  color: #01aa85;
+  margin-right: 20px;
+}
+
+.swiper-pagination {
+  z-index: 10;
+  position: relative;
+  background-color: #01aa85;
+
+}
+
+/* Ensure the imagesslider has relative positioning */
+.imagesslider {
+  position: relative;
+}
+
+/* Style for the previous button */
+.custom-swiper-button-prev {
+  left: 30px;
+  bottom: 30px;
+  /* Position it 30px from the bottom */
+  position: absolute;
+  z-index: 10;
+  /* Ensure it's above other content */
+}
+
+/* Style for the next button */
+.custom-swiper-button-next {
+  right: 10px;
+  bottom: 30px;
+  /* Position it 30px from the bottom */
+  position: absolute;
+  z-index: 10;
+  /* Ensure it's above other content */
+}
+
+.custom-swiper-button-prev svg,
+.custom-swiper-button-next svg {
+  width: 34px;
+  /* SVG size */
+  height: 24px;
+  /* SVG size */
+  background-color: white;
+
+}
+
+.custom-swiper-button-prev svg path,
+.custom-swiper-button-next svg path {
+  fill: #01aa85
+    /* SVG color */
+}
+
+/* styles.css */
+.no-style-navlink {
+  text-decoration: none;
+  /* Removes underline */
+  color: inherit;
+  /* Inherit color from parent */
+}
+
+/* ////////////////////////// */
+.text-1Ofheroimage {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  position: relative;
+}
+
+.textone {
+  height: 60%;
+  /* Set the height of the text to 20% of the container */
+  display: flex;
+  flex-direction: column;
+  /* Arrange elements vertically */
+  justify-content: center;
+  /* Center items vertically within the div */
+  align-items: center;
+  /* Center items horizontally */
+  padding: 20px;
+  background-color: rgba(16, 16, 16, 0.1);
+  /* Subtle background for the container */
+  border-radius: 10px;
+  /* Optional rounded corners */
+}
+
+h3,
+button {
+  background-color: transparent;
+  /* Ensure no background on these elements */
+  margin: 10px 0;
+  /* Add margin for spacing between elements */
+  text-align: center;
+  /* Center-align the text */
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+button {
+  padding: 10px 20px;
+  /* Padding for the button */
+  background-color: #ff6600;
+  /* Button background color */
+  color: white;
+  /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff4500;
+  /* Darken the button color on hover */
+}
+
+
+
+.text-2Ofheroimage {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  position: relative;
+}
+
+.text2 {
+  height: 60%;
+  /* Set the height of the text to 20% of the container */
+  display: flex;
+  flex-direction: column;
+  /* Arrange elements vertically */
+  justify-content: center;
+  /* Center items vertically within the div */
+  align-items: center;
+  /* Center items horizontally */
+  padding: 20px;
+
+  /* Subtle background for the container */
+  border-radius: 10px;
+  /* Optional rounded corners */
+}
+
+h3,
+button {
+  background-color: transparent;
+  margin: 10px 0;
+  text-align: center;
+
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+button {
+  padding: 10px 20px;
+  /* Padding for the button */
+  background-color: #01aa85;
+  /* Button background color */
+  color: white;
+  /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #01aa85;
+  /* Darken the button color on hover */
+}
+.weaklybidbutton {
+    background: transparent !important;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+   font-size: 20px;
+}
+.weaklybidbutton:hover {
+    background: rgb(249, 249, 249) !important;
+    color: black;
+    outline: none;
+    border: 3px solid  #01aa85 ;
+   
+}
+
+.dropdown-toggle::after{
+  display: none;
+}
