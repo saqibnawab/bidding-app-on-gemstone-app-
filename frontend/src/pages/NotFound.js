@@ -1,5 +1,6 @@
 import { Box, Typography, Button } from '@mui/material';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NotFound = () => {
 
@@ -24,6 +25,7 @@ const NotFound = () => {
             <Typography variant="body1" color="textSecondary" mb={4}>
                 Sorry, the page you’re looking for doesn’t exist or has been moved.
             </Typography>
+            <Link to='/home'>
             <Button
                 variant="contained"
                 color="primary"
@@ -31,6 +33,8 @@ const NotFound = () => {
             >
                 Go to Homepage
             </Button>
+            </Link> 
+           
         </Box>
     );
 };

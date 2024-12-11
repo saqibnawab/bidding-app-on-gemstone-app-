@@ -35,10 +35,8 @@ const Registration = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-md-5">
-                    {/* This column can be empty or used for other content */}
-                </div>
-                <div className="col-md-7">
+               
+                <div className="col-7 mx-auto  mt-5">
                     <form onSubmit={handleSubmit(handleSubmitRegistration)}>
                         {/* Image Section at the Top */}
                         {/* <Box mb={2} textAlign="center">

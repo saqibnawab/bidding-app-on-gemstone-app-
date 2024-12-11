@@ -16,13 +16,20 @@ const gemstone = require('./routes/ghemstoneroute');
 const auctionblog = require('./routes/Auctionblogroute');
 const weaklyoffer = require('./routes/weaklyofferroute');
 const user = require('./routes/userroute');
- 
+const biddingvalue = require('./routes/biddingvalueroute');
+
+// sending mail
+const emailRoute = require('./utils/sentmail');
+
+
 app.use('/', subcatagorey);
 app.use('/', heroimage);
 app.use('/', gemstone);
 app.use('/', auctionblog);
 app.use('/', weaklyoffer);
 app.use('/', user);
+app.use('/', biddingvalue);
+app.use('/', emailRoute);
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });

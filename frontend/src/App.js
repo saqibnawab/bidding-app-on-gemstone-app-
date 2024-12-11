@@ -23,9 +23,12 @@ import Registration from './pages/Registration';
 import Login from './pages/Login';
 import NotFound from './pages/NotFound';
 import Logout from './pages/Logout';
+import ListOfBiddingPage from './pages/ListOfBiddingPage';
+import MiniHeader from './components/MiniHeader';
 function App() {
   return (
     <>
+       <MiniHeader/>
       <Navbar />
       <Routes>
         <Route path='/home' element={<Home />} />
@@ -41,6 +44,7 @@ function App() {
         <Route path='/registration' element={<Registration/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/logout' element={<Logout/>}></Route>
+        <Route path='/totalnumberofbidding' element={<ListOfBiddingPage/>}></Route>
         <Route path='/*' element={<NotFound/>}></Route>
 
       </Routes>
